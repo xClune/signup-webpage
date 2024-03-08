@@ -1,0 +1,95 @@
+/* Globals */
+html, 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url(./Norse-Bold.otf);
+    }
+
+body {
+    display: flex;
+    flex-direction: row;
+
+    height: 100vh;
+}
+
+/* Left Section */
+.left-container {
+    display: flex;
+    flex: 1;
+    border: 1px solid black;
+    width: 45%;
+
+    align-items: flex-start;
+
+    background-image: url("./images/halie-west-fern.jpg");
+    background-size: contain;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 100%;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px;
+
+    margin-top: 100px;
+    background: rgba(20, 20, 20, 0.6);
+}
+
+#odin-logo {
+    max-height: 100%;
+}
+
+.logo-text {
+    font-family: Norse-Bold;
+    font-size: 7vw;
+    color: white;
+    margin-top: 25px;
+}
+
+/* Right Section - Form */
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    padding: 20px;
+
+    align-items: flex-start;
+    justify-content: center;
+}
+
+a:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+#submit-btn {
+    margin-top: 20px;
+    background-color: rgb(94, 170, 104);
+    border: none;
+    padding: 8px 30px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#submit-btn:hover {
+    cursor: pointer;
+    background-color: rgb(45, 89, 51);
+}
+
