@@ -3,9 +3,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-}
 
-p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -31,7 +29,7 @@ body {
     align-items: flex-start;
 
     background-image: url("./images/halie-west-fern.jpg");
-    background-size: contain;
+    background-size: cover;
 }
 
 .logo-container {
@@ -70,6 +68,36 @@ body {
 
     align-items: flex-start;
     justify-content: center;
+}
+
+.description-container {
+    margin-left: 20px;
+}
+
+/* Form section */
+.input-container {
+    margin-top: 40px;
+}
+
+.group {
+    display: inline-block;
+
+    margin-right: 30px;
+    margin-left: 20px;
+
+    font-size: 12px;
+}
+
+input {
+    display: inline-block;
+    border-color: lightgrey;
+}
+
+/* Submit section */
+
+.account {
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 a:hover {

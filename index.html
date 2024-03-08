@@ -19,21 +19,37 @@
         <p>You know you want to.</p>
         </div>
         <form>
-            <label for="fname">First name:</label>
-            <input type="text" name="fname" id="fname">
-            <label for="lname">Last name:</label>
-            <input type="text" name="lname" id="lname">
-            <label for="email">*Email: </label>
-            <input type="email" name="email" id="email">
-            <label for="number">Phone: </label>
-            <input type="number" name="number" id="number">
-            <label for="password">*Password</label>
-            <input type="password" name="password" id="password">
-            <label for="confirm-pw">*Confirm Password: </label>
-            <input type="password" name="confirm-pw" id="confirm-pw">
+            <div class="input-container">
+                <div class="group">
+                    <label for="fname">First name:</label><br />
+                    <input type="text" name="fname" id="fname">
+                </div>
+                <div class="group">
+                    <label for="lname">Last name:</label><br />
+                    <input type="text" name="lname" id="lname">
+                </div>
+                <div class="group">
+                    <label for="email">*Email: </label><br />
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="group">
+                    <label for="number">Phone: </label><br />
+                    <input type="number" name="number" id="number">
+                </div>
+                <div class="group">
+                    <label for="password">*Password</label><br />
+                    <input type="password" name="password" id="password">
+                </div>
+                <div class="group">
+                    <label for="confirm-pw">*Confirm Password: </label><br />
+                    <input type="password" name="confirm-pw" id="confirm-pw">
+                </div>
+            </div>
+            <div class="account">
+                <button id="submit-btn">Create Account</button>
+                <p>Already have an account? <a>Log in</a></p>
+            </div>
         </form>
-        <button id="submit-btn">Create Account</button>
-        <p>Already have an account? <a>Log in</a></p>
     </div>
 </body>
 </html>
